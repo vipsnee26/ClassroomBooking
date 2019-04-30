@@ -21,6 +21,7 @@
       }
       $objQuery = mysql_query($strSQL) or die (mysql_error());
       ?>
+        <a href="booking_form.php">Add Book</a>
       <table width="800px" border="1">
         <tr>
           <th>book_id</th>
